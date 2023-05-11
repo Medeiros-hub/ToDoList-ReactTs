@@ -1,0 +1,29 @@
+.taskInfo {
+  margin-top: 4rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskInfo > div {
+  width: fit-content;
+}
+
+.taskInfo > div > * {
+  font-size: 0.875rem;
+}
+
+.created {
+  color: var(--blue-300);
+}
+
+.done {
+  color: var(--purple-300);
+}
+
+.count {
+  background: var(--gray-500);
+  border-radius: 100%;
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.5rem;
+}

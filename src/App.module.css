@@ -1,0 +1,30 @@
+.formGroup {
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.tasks {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  padding: 4rem 1.5rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.noTask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.noTask img {
+  width: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+.noTask strong, .noTask span {
+  color: var(--gray-300);
+  line-height: 1.6;
+}
