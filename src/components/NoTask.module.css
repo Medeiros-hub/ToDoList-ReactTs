@@ -1,0 +1,23 @@
+.noTask {
+  width: 100%;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.noTaskcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1.5rem;
+}
+
+.noTaskcontent img {
+  width: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+.noTaskcontent strong,
+.noTaskcontent span {
+  color: var(--gray-300);
+  line-height: 1.6;
+}

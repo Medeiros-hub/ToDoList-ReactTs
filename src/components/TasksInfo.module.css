@@ -1,5 +1,5 @@
 .taskInfo {
-  margin-top: 4rem;
+  margin-top: 2.4375rem;
 
   display: flex;
   justify-content: space-between;
@@ -23,7 +23,7 @@
 
 .count {
   background: var(--gray-500);
-  border-radius: 100%;
+  border-radius: 8px;
   padding: 0.125rem 0.5rem;
   margin-left: 0.5rem;
 }
